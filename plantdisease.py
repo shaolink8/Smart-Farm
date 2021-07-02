@@ -1,8 +1,3 @@
-# Convolutional Neural Network
-
-
-
-# Importing the Keras libraries and packages
 from keras.models import Sequential
 from keras.layers import Convolution2D
 from keras.layers import MaxPooling2D
@@ -24,7 +19,6 @@ classifier.add(Dense(output_dim = 128, activation = 'relu'))
 classifier.add(Dense(output_dim = 1, activation = 'sigmoid'))
 classifier.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accuracy'])
 
-# Part 2 - Fitting the CNN to the images
 
 from keras.preprocessing.image import ImageDataGenerator
 
