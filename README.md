@@ -4,6 +4,8 @@ An attempt at executing ideas related to automating farms and assisting farmers.
 
 This is a project based entirely on Raspberry Pi.
 
+<i>Refer to the prototype image for an overall idea.</i>
+
 ## "smartfarm123.py"
 
 We've used moisture sensor, smoke sensor, ultrasonic sensors and a PiCam in our smart farm prototype.
